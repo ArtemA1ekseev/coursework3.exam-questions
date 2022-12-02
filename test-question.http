@@ -1,0 +1,23 @@
+### Заполнение 1 вопрос-ответ:
+PUT http://localhost:8080/exam/java/add?question="q1"&answer="a1"
+
+### Заполнение 2 вопрос-ответ:
+PUT http://localhost:8080/exam/java/add?question="q2"&answer="a2"
+
+### Заполнение 3 вопрос-ответ:
+PUT http://localhost:8080/exam/java/add?question="q3"&answer="a3"
+
+### Вывод всех вопрос-ответ:
+GET http://localhost:8080/exam/java
+
+### Удаление 3 вопрос-ответ:
+DELETE http://localhost:8080/exam/java/remove
+Content-Type: application/json
+
+{
+  "question": "\"q3\"",
+  "answer": "\"a3\""
+}
+
+### Вывод экзаменационных вопрос-ответ:
+GET http://localhost:8080/exam/java/get/2

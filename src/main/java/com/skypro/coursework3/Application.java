@@ -1,5 +1,6 @@
 package com.skypro.coursework3;
 
+import com.skypro.coursework3.model.Question;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
